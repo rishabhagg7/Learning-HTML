@@ -21,5 +21,21 @@
         <source media="(min-width: 460px)" srcset="./MainAfter2.jpg.webp"/>
         <img src="./MainAfter.jpg.webp" alt="no image">
     </picture>
+
+    <img src="sample.png" usemap="#image-map">
+
+    <map name="image-map">
+        <area onclick="envelope()" alt="" title="" href="" coords="24,401,160,292" shape="rect">
+        <area onclick="strawberry()" alt="" title="" href="" coords="3,224,105,75" shape="rect">
+    </map>
+    
+    <script>
+        function envelope(){
+            alert("this is an envelope")
+        }
+        function strawberry(){
+            alert("this is an strawberry")
+        }
+    </script>
 </body>
 </html>
